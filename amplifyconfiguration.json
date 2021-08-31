@@ -1,0 +1,17 @@
+{
+    "UserAgent": "aws-amplify-cli/2.0",
+    "Version": "1.0",
+    "api": {
+        "plugins": {
+            "awsAPIPlugin": {
+                "amplifyDatasource": {
+                    "endpointType": "GraphQL",
+                    "endpoint":"https://pexfdytzanawdk42vo73y7kn2q.appsync-api.cn-northwest-1.amazonaws.com.cn/graphql",
+                    "apiKey": "da2-knecsfqdbfep7il3mhlvg5s6re",
+                    "region": "cn-north-1",
+                    "authorizationType": "API_KEY",
+                }
+            }
+        }
+    }
+}

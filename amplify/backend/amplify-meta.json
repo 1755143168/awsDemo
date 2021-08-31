@@ -1,0 +1,33 @@
+{
+  "providers": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-lastdemo-dev-155945-authRole",
+      "UnauthRoleArn": "arn:aws-cn:iam::372180089346:role/amplify-lastdemo-dev-155945-unauthRole",
+      "AuthRoleArn": "arn:aws-cn:iam::372180089346:role/amplify-lastdemo-dev-155945-authRole",
+      "Region": "cn-north-1",
+      "DeploymentBucketName": "amplify-lastdemo-dev-155945-deployment",
+      "UnauthRoleName": "amplify-lastdemo-dev-155945-unauthRole",
+      "StackName": "amplify-lastdemo-dev-155945",
+      "StackId": "arn:aws-cn:cloudformation:cn-north-1:372180089346:stack/amplify-lastdemo-dev-155945/94a72440-0643-11ec-a96c-02efd808412e"
+    }
+  },
+  "api": {
+    "amplifyDatasource": {
+      "service": "AppSync",
+      "providerPlugin": "awscloudformation",
+      "output": {
+        "authConfig": {
+          "additionalAuthenticationProviders": [],
+          "defaultAuthentication": {
+            "authenticationType": "API_KEY",
+            "apiKeyConfig": {
+              "apiKeyExpirationDays": 7,
+              "description": "demo"
+            }
+          }
+        }
+      },
+      "lastPushTimeStamp": "2021-08-30T05:17:32.711Z"
+    }
+  }
+}

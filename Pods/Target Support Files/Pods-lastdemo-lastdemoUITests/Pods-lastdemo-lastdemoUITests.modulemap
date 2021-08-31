@@ -1,0 +1,6 @@
+framework module Pods_lastdemo_lastdemoUITests {
+  umbrella header "Pods-lastdemo-lastdemoUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
